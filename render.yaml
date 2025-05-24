@@ -1,0 +1,7 @@
+services:
+  - type: worker
+    name: tmate-session
+    env: docker
+    dockerfilePath: ./Dockerfile
+    autoDeploy: false
+    region: singapore
